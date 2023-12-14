@@ -1,0 +1,303 @@
+body {
+    background-color: #f5f5f5;
+}
+
+p {
+    font-size: 18px;
+}
+
+li {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    
+}
+/************************************** navbar start ************************************************/
+
+
+.navbar {
+    background-color: rgba(24, 23, 24, 0);
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar.active {
+    background-color: black;
+    color: white;
+    box-shadow: 0px 5px 5px blue;
+}
+
+.navbar-brand {
+    color: white;
+    margin-left: 60px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+ul {
+    margin-left: 600px;
+}
+
+li {
+    margin-left: 30px;
+}
+
+.btn:hover {
+    background-color: rgb(212, 25, 190);
+
+}
+
+.logo-text {
+    color: blue;
+}
+
+/*************************************** navbar end ************************************************/
+
+/********************************************* Banner start ******************************************/
+.banner {
+
+    background: linear-gradient(90deg, rgba(14, 14, 14, 0.838), rgba(235, 5, 5, 0.144)), url(images/desktop-wallpaper-web-development.jpg);
+
+    background-size: 100% 100%;
+
+
+
+}
+
+.banner-content {
+
+    height: 650px;
+    color: white;
+    float: left;
+
+}
+
+.banner-text {
+    color: white;
+
+    margin-top: 150px;
+    margin-left: 20px;
+
+}
+
+.banner-text h1 {
+    font-size: 70px;
+
+}
+
+.banner-img {
+
+    height: 600px;
+    background-image: url(images/pic4-removebg.png);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    background-size: 100% 100%;
+    float: right;
+
+
+}
+
+.button {
+    background-color: rgb(2, 2, 196);
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: transparent;
+}
+
+/********************************************* Banner end *******************************************/
+
+/******************************************* about start *******************************************/
+.about {
+
+    background-color: white;
+    margin-top: 100px;
+}
+
+.about-intro {
+    text-align: center;
+    color: black;
+}
+
+.profile-pic {
+
+    height: 400px;
+}
+
+.about-p {
+    text-align: left;
+}
+
+.skill {
+    height: 80px;
+    width: 80px;
+    display: inline;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+.about-one h1 {
+    color: rgb(113, 113, 113);
+}
+
+.profile-pic {
+    text-align: center;
+}
+
+.list-one {
+    height: 200px;
+
+    float: left;
+}
+
+.list-two {
+    height: 200px;
+
+    float: right;
+}
+
+.profile-img {
+    margin-top: 50px;
+    border: 5px solid black;
+}
+
+/********************************************** about end ******************************************/
+/******************************************* service start ******************************************/
+.service {
+
+    background-color: white;
+    margin-top: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.service-intro {
+    text-align: center;
+}
+
+.service-box {
+
+    border: 1px solid black;
+    margin: 50px;
+    padding: 20px;
+
+}
+
+.icon {
+    font-size: 70px;
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+/********************************************** service end *****************************************/
+
+
+
+/**************************************** contact me start ********************************************/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(11, 11, 11);
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.contact-me-box {
+
+    background-color: white;
+    margin-top: 100px;
+}
+
+
+table {
+    width: 90%;
+
+    margin-left: 20px;
+
+}
+
+tr {
+    height: 30px;
+
+}
+
+input {
+    width: 98%;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+}
+
+li.icon1 {
+    display: inline;
+    font-size: 50px;
+
+}
+
+/****************************************** contact me end *******************************************/
+/***************************************** footer start **********************************************/
+.footer {
+    margin-top: 20px;
+
+    background-color: black;
+    color: white;
+
+
+}
+
+.col p {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/***************************************** footer end ***************************************************/
